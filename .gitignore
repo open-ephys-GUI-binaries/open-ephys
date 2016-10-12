@@ -1,0 +1,4 @@
+# ignore config files
+
+*.xml
+.DS_Store
