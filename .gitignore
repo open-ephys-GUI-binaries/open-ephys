@@ -1,4 +1,11 @@
 # ignore config files
 
 *.xml
+
+
+# ignore calibration files
+*.csv
+
+
+# ignore DS_Store on Mac
 .DS_Store
