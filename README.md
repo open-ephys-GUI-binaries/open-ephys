@@ -11,7 +11,7 @@ Copy the "open-ephys" directory anywhere on your machine and double-click "open-
 
 If the software can't open because of missing DLLs, you'll need to install the [Visual C++ Redistributable Package for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
 
-The application will open a console by default, which will allow you to see the status of various under-the-hood operations. We are planning to gradually fold some of this information into progress bars, so it's more obvious what is happening.
+The application will open a console by default, which will allow you to see the status of various under-the-hood operations. We are planning to gradually fold some of this information into progress bar windows, so it's more obvious what is happening when.
 
 
 ## Compatible hardware:
@@ -32,3 +32,8 @@ Documentation is hosted on the Open Ephys wiki:
 - [Neuropixels Probes](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropixels+Probes)
 - [Neuropix-3a](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropix-3a) plugin
 - [Neuropix-PXI](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/963280903/Neuropix-PXI) plugin
+
+
+## Reporting bugs & submitting feature requests
+
+Please log any issues related to Neuropixels probes in the [Neuropixels-PXI](https://github.com/open-ephys/neuropixels-pxi/issues) repository on GitHub.
