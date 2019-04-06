@@ -17,7 +17,6 @@ The application will open a console by default, which will allow you to see the 
 ## Compatible hardware:
 
 - Neuropixels 1.0 probes, with PXI interface (use `Neuropix-PXI` plugin)
-- Neuropixels "Phase 3a" probes (options 1-4), with Kintex FPGA and IMEC basestation (requires a 32-bit version of the application, email joshs@alleninstitute.org for info)
 
 
 ## Compatible operating systems:
@@ -30,7 +29,6 @@ The application will open a console by default, which will allow you to see the 
 
 Documentation is hosted on the Open Ephys wiki:
 - [Neuropixels Probes](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropixels+Probes)
-- [Neuropix-3a](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropix-3a) plugin
 - [Neuropix-PXI](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/963280903/Neuropix-PXI) plugin
 
 
