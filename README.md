@@ -2,7 +2,7 @@
 
 Compiled binaries for the [Open Ephys GUI](https://github.com/open-ephys/plugin-GUI)
 
-This repository contains a special version of the Open Ephys GUI for use with Neuropixels probes. The host application is up-to-date with the [development](https://github.com/open-ephys/plugin-GUI/tree/development) branch of the standard Open Ephys GUI, save for a few small changes. Eventually, the Neuropixels plugins will become part of the main Open Ephys distribution.
+This repository contains a special version of the Open Ephys GUI for use with Neuropixels probes. The host application is up-to-date with the [neuropixels](https://github.com/open-ephys/plugin-GUI/tree/neuropixels) branch of the Open Ephys GUI. Eventually, the Neuropixels plugins will become part of the main Open Ephys distribution.
 
 
 ## Installation
