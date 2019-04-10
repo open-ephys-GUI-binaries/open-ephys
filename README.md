@@ -17,21 +17,20 @@ The application will open a console by default, which will allow you to see the 
 ## Compatible hardware:
 
 - Neuropixels 1.0 probes, with PXI interface (use `Neuropix-PXI` plugin)
-
+- Neuropixels 3a probes, with Ethernet interface (use `Neuropix-3a` plugin)
 
 ## Compatible operating systems:
 
 - Windows 7
 - Windows 10
 
-
 ## Documentation
 
 Documentation is hosted on the Open Ephys wiki:
 - [Neuropixels Probes](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropixels+Probes)
 - [Neuropix-PXI](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/963280903/Neuropix-PXI) plugin
-
+- [Neuropix-3a](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/953548803/Neuropix-3a) plugin
 
 ## Reporting bugs & submitting feature requests
 
-Please log any issues related to Neuropixels probes in the [Neuropixels-PXI](https://github.com/open-ephys/neuropixels-pxi/issues) repository on GitHub.
+Please log any issues related to Neuropixels probes in the [Neuropixels-PXI](https://github.com/open-ephys/neuropixels-pxi/issues) or [Neuropixels-3a](https://github.com/open-ephys/neuropixels-3a/issues) repositories on GitHub.
