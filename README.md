@@ -16,8 +16,8 @@ The application will open a console by default, which will allow you to see the 
 
 ## Compatible hardware:
 
-- Neuropixels 1.0 probes, with PXI interface (use `Neuropix-PXI` plugin)
-- Neuropixels 3a probes, with Ethernet interface (use `Neuropix-3a` plugin)
+- Neuropixels 1.0 probes, with PXI interface (use `Neuropix-PXI` plugin); requires basestation firmware version 1.1.123 and BSC firmware version 1.0.151
+- Neuropixels 3a probes, with Ethernet interface (use `Neuropix-3a` plugin); requires firmware version 5.1 or 5.2
 
 ## Compatible operating systems:
 
