@@ -3,21 +3,19 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G3025</string>
+	<string>17G8037</string>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>en</string>
+	<string>English</string>
 	<key>CFBundleExecutable</key>
 	<string>ArduinoOutput</string>
 	<key>CFBundleIdentifier</key>
-	<string>org.open-ephys.gui.plugin.ArduinoOutput</string>
+	<string>org.open-ephys.plugin.ArduinoOutput</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
-	<key>CFBundleName</key>
-	<string>ArduinoOutput</string>
+	<key>CFBundleLongVersionString</key>
+	<string></string>
 	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
-	<key>CFBundleShortVersionString</key>
-	<string>1.0</string>
+	<string>APPL</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,7 +23,9 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1</string>
+	<string></string>
+	<key>CSResourcesFileMapped</key>
+	<true/>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -41,6 +41,6 @@
 	<key>DTXcodeBuild</key>
 	<string>10B61</string>
 	<key>NSHumanReadableCopyright</key>
-	<string>Copyright © 2016 Open Ephys. All rights reserved.</string>
+	<string></string>
 </dict>
 </plist>
