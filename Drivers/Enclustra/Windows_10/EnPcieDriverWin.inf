@@ -18,10 +18,8 @@ Provider						= %MSFT%
 Class							= Memory Controller
 ClassGuid						= {5099944C-F6B9-4057-A056-8C550228544C}
 CatalogFile						= EnPcieDriverWin.cat
-DriverVer						= 08/10/2017,1.06.0000.0000;
+DriverVer						= 11/26/2018,1.09.0000.0000;
 
-[DestinationDirs]
-DefaultDestDir					= 12
 
 ;-------------------------------------------------------------------------
 ; Class Section
@@ -44,8 +42,6 @@ ExcludeFromSelect				= *
 [Manufacturer]
 %MSFT%							= MSFT,NTAMD64
 
-[SourceDisksFiles]
-EnPcieDriverWin.sys				= 1
 
 [SourceDisksNames]
 1								= %DISK_NAME%,
@@ -93,6 +89,7 @@ ServiceBinary	= %12%\EnPcieDriverWin.sys
 ; WDF Coinstaller installation
 ;-------------------------------------------------------------------------
 [DestinationDirs]
+DefaultDestDir				= 12
 CoInstaller_CopyFiles		= 11
 
 [Enclustra_PCI_Express.NT.CoInstallers]
@@ -109,6 +106,7 @@ WdfCoInstaller01009.dll
 
 [SourceDisksFiles]
 WdfCoInstaller01009.dll = 1 ; make sure the number matches with SourceDisksNames
+EnPcieDriverWin.sys				= 1
 
 [CoInstaller_AddReg]
 HKR,,CoInstallers32,0x00010000, "WdfCoInstaller01009.dll,WdfCoInstaller"
