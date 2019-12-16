@@ -9,7 +9,7 @@ This repository contains a special version of the Open Ephys GUI for use with Ne
 
 Copy the "open-ephys" directory anywhere on your machine and double-click "open-ephys.exe"
 
-If the software can't open because of missing DLLs, you'll need to install the [Visual C++ Redistributable Package for Visual Studio 2013](https://www.microsoft.com/en-us/download/details.aspx?id=40784).
+If the software can't open because of missing DLLs, you'll need to install the [Visual C++ Redistributable Package for Visual Studio 2015+](https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads).
 
 The application will open a console by default, which will allow you to see the status of various under-the-hood operations. We are planning to gradually fold some of this information into progress bar windows, so it's more obvious what is happening when.
 
