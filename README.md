@@ -1,9 +1,5 @@
-# open-ephys
+# Open Ephys GUI Binaries (deprecated)
 
-macOS compiled binaries for the Open Ephys GUI (https://github.com/open-ephys/plugin-GUI)
+This repository formerly hosted compiled binaries for the Open Ephys GUI (https://github.com/open-ephys/plugin-GUI)
 
-Compatible with macOS version 10.9 (Mavericks) and higher.
-
-To run, double-click the “open-ephys” application.
-
-Sample data files are available in the DataFiles folder.
+The latest binaries are now available via [this page](https://open-ephys.org/gui#download).
