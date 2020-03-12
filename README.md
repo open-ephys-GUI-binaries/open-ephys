@@ -1,36 +1,7 @@
-# Open Ephys GUI - Neuropixels Version
+# Open Ephys GUI Binaries (deprecated)
 
-Compiled binaries for the [Open Ephys GUI](https://github.com/open-ephys/plugin-GUI)
+This repository formerly hosted compiled binaries for the Open Ephys GUI (https://github.com/open-ephys/plugin-GUI)
 
-This repository contains a special version of the Open Ephys GUI for use with Neuropixels probes. The host application is up-to-date with the [neuropixels](https://github.com/open-ephys/plugin-GUI/tree/neuropixels) branch of the Open Ephys GUI. Eventually, the Neuropixels plugins will become part of the main Open Ephys distribution.
+The latest binaries are now available via [this page](https://open-ephys.org/gui#download).
 
-
-## Installation
-
-Copy the "open-ephys" directory anywhere on your machine and double-click "open-ephys.exe"
-
-If the software can't open because of missing DLLs, you'll need to install the [Visual C++ Redistributable Package for Visual Studio 2015+](https://support.microsoft.com/en-gb/help/2977003/the-latest-supported-visual-c-downloads).
-
-The application will open a console by default, which will allow you to see the status of various under-the-hood operations. We are planning to gradually fold some of this information into progress bar windows, so it's more obvious what is happening when.
-
-
-## Compatible hardware:
-
-- Neuropixels 1.0 probes, with PXI interface (use `Neuropix-PXI` plugin); requires basestation firmware version 1.1.123 and BSC firmware version 1.0.151
-- Neuropixels 3a probes, with Ethernet interface (use `Neuropix-3a` plugin); requires firmware version 5.1 or 5.2
-
-## Compatible operating systems:
-
-- Windows 7
-- Windows 10
-
-## Documentation
-
-Documentation is hosted on the Open Ephys wiki:
-- [Neuropixels Probes](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/77332482/Neuropixels+Probes)
-- [Neuropix-PXI](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/963280903/Neuropix-PXI) plugin
-- [Neuropix-3a](https://open-ephys.atlassian.net/wiki/spaces/OEW/pages/953548803/Neuropix-3a) plugin
-
-## Reporting bugs & submitting feature requests
-
-Please log any issues related to Neuropixels probes in the [Neuropixels-PXI](https://github.com/open-ephys/neuropixels-pxi/issues) or [Neuropixels-3a](https://github.com/open-ephys/neuropixels-3a/issues) repositories on GitHub.
+Neuropixels plugins are included by default in the Windows release.
